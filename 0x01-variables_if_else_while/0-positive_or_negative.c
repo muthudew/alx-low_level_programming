@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Entry point
  * Returnn: Always 0 (Success)
  */
 int main(void)
