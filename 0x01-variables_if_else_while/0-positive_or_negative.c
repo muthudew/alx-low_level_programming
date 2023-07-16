@@ -5,7 +5,8 @@
 
 /**
  * main - Entry point
- * Returnn: Always 0 (Success)
+ * 
+ * Returnn: Always 1 (Success)
  */
 int main(void)
 {
@@ -26,7 +27,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
+	return (1);
 }
 
 
