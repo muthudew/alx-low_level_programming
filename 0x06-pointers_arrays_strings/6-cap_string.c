@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * cap_string - capitilise each/first char of a word
+ * cap_ string - capitilize each/first char of a word
  * @str: the string input
  *
  * Return: str which is the modified string
@@ -8,7 +8,7 @@
 char *cap_string(char *str)
 {
 	int i, j;
-	char c[] = {44, 59, 46, '!', '?', '"', '(', ')', '{', '}', '.', '\t', '\n'};
+	char c[] = {44, 59, 46, '!', '?', '"', '(', ')', '{', '}', ';', '\t', '\n'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
