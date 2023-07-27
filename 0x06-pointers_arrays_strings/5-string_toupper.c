@@ -3,9 +3,9 @@
  * string_toupper - change all lowercase to uppercase
  * @n: pointer
  *
- * Return: n
+ * Return: modified string
  */
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 	int i;
 
